@@ -1,0 +1,125 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #19350C;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+body{
+    line-height: 30px;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.menu li a.active{
+    background-color: #DCEBCA;
+    border-radius: 5px;
+    color: #19350C;
+    padding: 7px;
+}
+form{
+            border-radius: 5px;
+            background-color:#DCEBCA;
+            width: 450px;
+            padding: 20px;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            box-shadow: 2px 3px 2px 3px gray;
+        }
+        .login-button{
+            text-align: center;
+        }
+        .login-button button{
+            background-color: #19350C;
+            border: #19350C 5px solid;
+            color: white;
+            border-radius: 5px;
+            width:fit-content;
+            height: 30px;
+            margin-top: 30px;
+            
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .login-h2{
+            text-align: center;
+            color: #19350C;
+            margin-top: 20px;
+           
+        }
+        .footer{
+    background-color:#19350C;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.footer hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ft-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.ft-container a{
+    color: azure;
+    text-decoration: none;
+}
+.ft-container a:hover{
+    color: #DCEBCA;
+}
+.social-icons a{
+    font-size: 30px;
+    margin: 7px;
+}
+.facebook i{
+    color: darkblue;
+}
+.twitter i{
+    color: blue;
+}
+.youtube i{
+    color: red;
+}
+.instagram i{
+    color: pink;
+}
+.social-icons a i:hover{
+    transform: scale(1.2);
+}
+
+    

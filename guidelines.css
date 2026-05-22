@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 50px;
+    background-color: white;
+}
+.navbar{
+    background-color: #19350C;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.menu li a.active{
+    background-color: #DCEBCA;
+    border-radius: 5px;
+    color: #19350C;
+    padding: 7px;
+}
+ .guidelines-contents{
+            border-radius: 10px;
+            width: 80%;
+            padding: 20px;
+            margin: auto;
+            margin-bottom: 30px;
+            display: block;
+            background-color: #DCEBCA;
+            margin-top: 30px;
+            box-shadow: 2px 3px 2px 3px #DCEBCA;
+        }
+        .guidelines-contents img{
+            width: 40%;
+            border-radius: 30px;
+            margin-left: 30%;
+            object-fit: cover;
+            border: #19350C solid 2px;
+        }
+        .guidelines-contents h2,h3{
+            text-align: center;
+            font-style: italic;
+            color: #19350C;
+        }
+        .guidelines-contents hr{
+            margin: auto;
+            width: 300px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+        .g-button{
+            text-align: center;
+        }
+        button{
+        background: #19350C;
+        border: #19350C solid;
+        border-radius: 5px;
+        padding: 10px;
+        transition: 0.5s;
+        margin: 20px;
+        color: #DCEBCA;
+        margin-left: 45%;
+    }
+    .g-button p{
+        background-color: #DCEBCA;
+        width: 25%;
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 20px;
+        
+    }
+    button a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.874);
+    }
+.footer{
+    background-color:#19350C;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.footer hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ft-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.ft-container a{
+    color: azure;
+    text-decoration: none;
+}
+.ft-container a:hover{
+    color: #DCEBCA;
+}
+.social-icons a{
+    font-size: 30px;
+    margin: 7px;
+}
+.facebook i{
+    color: darkblue;
+}
+.twitter i{
+    color: blue;
+}
+.youtube i{
+    color: red;
+}
+.instagram i{
+    color: pink;
+}
+.social-icons a i:hover{
+    transform: scale(1.2);
+}

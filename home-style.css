@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 50px;
+    background-color: white;
+}
+.navbar{
+    background-color: #19350C;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.menu li a.active{
+    background-color: #DCEBCA;
+    border-radius: 5px;
+    color: #19350C;
+    padding: 7px;
+}
+.about-container{
+     background: url(image/homehereimage.jpg) no-repeat center;
+     background-size: cover;
+     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    background-color: #19350C;
+    opacity: 0.6;
+    width: 700px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.content h2{
+    font-size: 30px;
+}
+.intro{
+    display: flex;
+}
+.home-para{
+    color: #19350C;
+    margin: 15px;
+    
+    
+}
+.home-para h1{
+    text-align: center;
+    margin: 20px;
+}
+.home-para p{
+    width: 50%;
+    color:#19350C;
+    text-align: center;
+    margin-left: 25%;
+    padding: 10px;
+    line-height: 30px;
+}
+        .home-content1{
+            margin: 20px;
+            background-color: #DCEBCA;
+            border-radius: 20px;
+            text-align: center;
+            
+        }
+        .home-content1 h3{
+            color: #19350C;
+        }
+        .home-card{
+            border-radius: 10px;
+            width: 40%;
+            padding: 8px;
+            box-shadow: 3px 4px 2px 3px #DCEBCA;
+            margin:auto;
+            display: block;
+            background-color: #DCEBCA;
+        }
+        .home-card img{
+            width: 60%;
+            border-radius: 10px;
+            margin-left: 20%;
+            object-fit: cover;
+        }
+        .home-card h2,h3{
+            text-align: center;
+            font-style: italic;
+            color: #19350C;
+        }
+        .home-button{
+            text-align: center;
+        }
+        button{
+        background: #19350C;
+        border: #19350C solid;
+        border-radius: 5px;
+        padding: 10px;
+        transition: 0.5s;
+        margin: 20px;
+        width: 100px;
+        height: 40px;
+    }
+    button a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.874);
+    }
+    button:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .home-faq h2{
+        margin: 20px;
+        text-align: center;
+        color: #19350C;
+    }
+    button{
+    background: #19350C;
+    border: #DCEBCA solid 2px;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+    color: white;
+  
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+    .image1{
+    width: 25%;
+    border-radius: 5px;
+    margin: auto;
+    }
+    .image1 img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;        
+    }
+
+    .faq-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin: 10px;
+        }
+        .faq-question{
+            flex: 1;
+        }
+        .faq-question details{
+            background-color:#DCEBCA;
+            border-bottom: 1px solid #19350C;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .faq-question details p{
+            background-color: #E9F5DB;
+            color: #19350C;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .faq-question summary{
+            color: #19350C;
+        }
+        .footer{
+    background-color:#19350C;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    line-height: 30px;
+}
+.footer hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ft-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.ft-container a{
+    color: azure;
+    text-decoration: none;
+}
+.ft-container a:hover{
+    color: #DCEBCA;
+}
+.social-icons a{
+    font-size: 30px;
+    margin: 7px;
+}
+.facebook i{
+    color: darkblue;
+}
+.twitter i{
+    color: blue;
+}
+.youtube i{
+    color: red;
+}
+.instagram i{
+    color: pink;
+}
+.social-icons a i:hover{
+    transform: scale(1.2);
+}
+        

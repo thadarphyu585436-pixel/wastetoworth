@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 50px;
+    background-color: white;
+}
+.navbar{
+    background-color: #19350C;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.menu li a.active{
+    background-color: #DCEBCA;
+    border-radius: 5px;
+    color: #19350C;
+    padding: 7px;
+}
+.about-container{
+     background: url(image/heroimage.jpg) no-repeat center;
+     background-size: cover;
+     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    background-color: #19350C;
+    opacity: 0.6;
+    width: 350px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.content h2{
+    font-size: 40px;
+}
+.about-content{
+    background-color: #DCEBCA;
+    width: 35%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 130px;
+}
+.about-content h2{
+    text-align: center;
+    
+}
+.about-content img{
+    width: 100px;   
+    height: 100px;
+    border-radius: 50%;
+}
+.about-members{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px 3px gray;
+}
+.about-members-image{
+    width: 25%;
+    margin: 30px;
+}
+.about-members-image img{
+    width: 200px;
+    padding: 20px;
+}
+.about-members-para h2{
+    width: 100%;
+    margin-top: 40px;
+}
+.footer{
+    background-color:#19350C;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.footer hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ft-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.ft-container a{
+    color: azure;
+    text-decoration: none;
+}
+.ft-container a:hover{
+    color: #DCEBCA;
+}
+.social-icons a{
+    font-size: 30px;
+    margin: 7px;
+}
+.facebook i{
+    color: darkblue;
+}
+.twitter i{
+    color: blue;
+}
+.youtube i{
+    color: red;
+}
+.instagram i{
+    color: pink;
+}
+.social-icons a i:hover{
+    transform: scale(1.2);
+}
